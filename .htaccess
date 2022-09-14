@@ -40,5 +40,5 @@ ExpiresByType application/javascript "access plus 1 year"
 
 RewriteEngine on
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?yourdomain.com [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?gamescnscm.github.io [NC]
 RewriteRule .(jpg|jpeg|png|gif)$ – [NC,F,L]
